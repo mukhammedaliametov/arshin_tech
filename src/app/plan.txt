@@ -1,0 +1,36 @@
+Function degani bu — kod ichida bittalab yozib o‘tirishdan qutqaradigan “quticha” desak bo‘ladi. 
+Masalan, bir marta yozasan, keyin xohlagan joyda chaqirasan, qayta-qayta ishlatsa bo‘ladi. 
+Bir xil ishni 100 marta qilish kerak bo‘lsa, function hayot qutqaradi deyman.
+
+===============
+Declaration function
+
+function salomBer() {
+  console.log("Assalomu aleykum");
+}
+salomBer();
+
+
+Oldindan e’lon qilinadi, keyin xohlagan joyda chaqirasan.
+===============
+Expression function
+
+const bye = function() {
+  console.log("Xayr ustoz");
+}
+bye();
+
+
+Bunda functionni o‘zgaruvchiga tashlab qo‘yamiz.
+===============
+Anonymous function (ismi yo‘q)
+
+setTimeout(function(){
+  console.log("3 sekunddan keyin chiqdi...");
+}, 3000);
+
+
+Ism bermaysan, shundoq ishlaydi.
+===============
+Xullas, function degani bu qayta-qayta ishlatadigan tayyor blok. 
+Boshida sal chalkash tuyuladi, lekin aslida hayotni osonlashtiradi.
