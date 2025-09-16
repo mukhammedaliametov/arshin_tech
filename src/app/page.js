@@ -1,10 +1,13 @@
 import React from 'react';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
 
 const page = () => {
   return (
-    <div>
-      <h1>hello world</h1>
-    </div>
+    <>
+      <Header />
+      <Hero />
+    </>
   );
 };
 
