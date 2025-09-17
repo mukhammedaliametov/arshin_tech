@@ -11,5 +11,6 @@ body{
   --font-inter: 'Inter', sans-serif;
   --font-roboto: 'Roboto', sans-serif;
   --color-flash-white: #F0F3F7;
-  --color-primary-blue: #97AAC6;
+  --color-primary-blue: #2D6AC8;
+  --color-secondary-blue: #97AAC6;
 }

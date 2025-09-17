@@ -6,8 +6,8 @@ import { BsArrowDownRightCircleFill } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div className="w-full max-w-[1160px] mx-auto mt-[20px] flex flex-col md:flex-row items-top gap-[20px]">
-      <div className="flex flex-col gap-[20px] w-full md:w-[60%] xl:w-[660px]">
+    <div className="w-full max-w-[1160px] mx-auto mt-[20px] flex flex-col md:flex-row items-top gap-[30px]">
+      <div className="flex flex-col gap-[30px] w-full md:w-[60%] xl:w-[660px]">
         <div className="h-[259px] p-[20px] rounded-[20px] bg-white relative flex flex-col justify-between">
           <div className="flex items-center gap-[5px]">
             <p className="bg-[#97AAC6] py-[5px] px-[10px] rounded-full font-inter font-[400] text-white">
@@ -51,7 +51,7 @@ const Hero = () => {
         <Image
           src={heroImage}
           alt="hero_img"
-          className="w-full h-[582px]"
+          className="w-full h-auto md:h-[582px]"
         />
       </div>
     </div>
